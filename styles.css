@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    background-color: azure;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 820px;
+    width: 720px;
+    background-color: azure;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.Rock {
+    background-image: url(img/rock.png);
+    background-size:80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Scissors {
+    background-image: url(img/scissors.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.Paper {
+    background-image: url(img/paper.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+img {
+    height: 550px;
+    width: 400px;
+    object-fit:fill;
+    object-position: center;
+    
+}
+
+p {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
